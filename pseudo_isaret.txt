@@ -1,0 +1,45 @@
+ORG 100
+START,Load BAS
+Add X
+Store BAS
+LoadI BAS
+Skipcond 400
+Jump B
+Jump AS
+B,Skipcond 800
+Jump A
+Jump AP
+A,Skipcond 000
+Halt
+Jump AN
+AS,LoadI SFR
+Add X
+StoreI SFR
+Load SON
+Subt BAS
+Skipcond 400
+Jump START
+Halt
+AP,LoadI POZ
+Add X
+StoreI POZ
+Load SON
+Subt BAS
+Skipcond 400
+Jump START
+Halt
+AN,LoadI NEG
+Add X
+StoreI NEG
+Load SON
+Subt BAS
+Skipcond 400
+Jump START
+Halt
+BAS,HEX 34f
+SON,HEX 36f
+POZ,HEX 400
+NEG,HEX 401
+SFR,HEX 402
+X,DEC 1
+END

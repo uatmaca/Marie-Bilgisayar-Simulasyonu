@@ -1,0 +1,33 @@
+ORG 100
+Clear
+StoreI BAS
+Load BAS
+Add X
+Store BAS
+Load X
+StoreI BAS
+CEVRM,Load BAS
+Subt X
+Store ONCE
+Load BAS
+Add X
+Store SONRA
+LoadI ONCE
+AddI BAS
+StoreI SONRA
+Load BAS
+Add X
+Store BAS
+Load DONGU
+Subt X
+Store DONGU
+Skipcond 400
+Jump CEVRM
+Halt
+X,DEC 1
+ONCE,DEC 0
+BAS,HEX 4ff
+SONRA, DEC 0
+SONUC,DEC 0
+DONGU,DEC 48
+END

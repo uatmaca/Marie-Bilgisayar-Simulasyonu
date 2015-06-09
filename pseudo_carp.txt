@@ -1,0 +1,29 @@
+ORG 100
+CEVR,Load BAS
+Add X
+Store BAS
+LoadI BAS
+Store EKLE
+Load DEGER
+CARP,Store DONGU
+LoadI BAS
+Add EKLE
+StoreI BAS
+Load DONGU
+Subt X
+Skipcond 400
+Jump CARP
+LoadI BAS
+Output
+Load SON
+Subt BAS
+Skipcond 400
+Jump CEVR
+Halt
+BAS,HEX 20f
+SON,HEX 22f
+DONGU,DEC 0
+DEGER,DEC 7
+X,DEC 1
+EKLE,DEC 0
+END

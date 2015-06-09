@@ -1,0 +1,11 @@
+Hocam örnek kodlarý yukarýdaki gibi kullanýcaksýnýz.
+Önemli noktalar;
+->Etiket belirtirken virgülün saðýna ve soluna boþluk býrakmayýnýz.
+->Etiket adý belirlerken I karakterini kullanmayýnýz.
+->Komut dizilimi proje dosyasýnda verdiðiniz gibi ilk karakteri büyük sonraki
+karakterleri küçük harfle olmalýdýr.
+->Dolaylý adresleme kullanýlacaksa büyük I kullanýlmalýdýr.
+->Dosyadaki kodlarýn içerikleri pseudo.txt dosyasýna atýlacaktýr. Program
+buradan okuma yapmaktadýr.
+->bellek.txt, tumbellek.txt, etiket.txt dosyalarý program tarafýndan 
+oluþturulmaktadýr.
